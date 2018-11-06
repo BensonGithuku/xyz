@@ -1,0 +1,220 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/**
+ * Start Vanilla CSS 1.0.2 
+ */
+/* line 5, ../sass/settings/_base.scss */
+body {
+  font: 9pt/1.5em sans-serif;
+}
+
+/* line 8, ../sass/settings/_base.scss */
+pre, code, tt {
+  font: 1em/1.5em 'Andale Mono', 'Lucida Console', monospace;
+}
+
+/* line 11, ../sass/settings/_base.scss */
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: bold;
+}
+
+/* line 14, ../sass/settings/_base.scss */
+em, i, dfn {
+  font-style: italic;
+}
+
+/* line 17, ../sass/settings/_base.scss */
+dfn {
+  font-weight: bold;
+}
+
+/* line 20, ../sass/settings/_base.scss */
+p, code, pre, kbd {
+  margin: 0 0 1.5em 0;
+}
+
+/* line 23, ../sass/settings/_base.scss */
+blockquote {
+  margin: 0 1.5em 1.5em 1.5em;
+}
+
+/* line 26, ../sass/settings/_base.scss */
+cite {
+  font-style: italic;
+}
+
+/* line 29, ../sass/settings/_base.scss */
+li ul, li ol {
+  margin: 0 1.5em;
+}
+
+/* line 32, ../sass/settings/_base.scss */
+ul, ol {
+  margin: 0 1.5em 1.5em 1.5em;
+}
+
+/* line 35, ../sass/settings/_base.scss */
+ul {
+  list-style-type: disc;
+}
+
+/* line 38, ../sass/settings/_base.scss */
+ol {
+  list-style-type: decimal;
+}
+
+/* line 41, ../sass/settings/_base.scss */
+ol ol {
+  list-style: upper-alpha;
+}
+
+/* line 44, ../sass/settings/_base.scss */
+ol ol ol {
+  list-style: lower-roman;
+}
+
+/* line 47, ../sass/settings/_base.scss */
+ol ol ol ol {
+  list-style: lower-alpha;
+}
+
+/* line 50, ../sass/settings/_base.scss */
+dl {
+  margin: 0 0 1.5em 0;
+}
+
+/* line 53, ../sass/settings/_base.scss */
+dl dt {
+  font-weight: bold;
+}
+
+/* line 56, ../sass/settings/_base.scss */
+dd {
+  margin-left: 1.5em;
+}
+
+/* line 59, ../sass/settings/_base.scss */
+table {
+  margin-bottom: 1.4em;
+  width: 100%;
+}
+
+/* line 63, ../sass/settings/_base.scss */
+th {
+  font-weight: bold;
+}
+
+/* line 66, ../sass/settings/_base.scss */
+th, td, caption {
+  padding: 4px 10px 4px 5px;
+}
+
+/* line 69, ../sass/settings/_base.scss */
+tfoot {
+  font-style: italic;
+}
+
+/* line 72, ../sass/settings/_base.scss */
+sup, sub {
+  line-height: 0;
+}
+
+/* line 75, ../sass/settings/_base.scss */
+abbr, acronym {
+  border-bottom: 1px dotted;
+}
+
+/* line 78, ../sass/settings/_base.scss */
+address {
+  margin: 0 0 1.5em;
+  font-style: italic;
+}
+
+/* line 82, ../sass/settings/_base.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 85, ../sass/settings/_base.scss */
+pre {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+
+/* line 89, ../sass/settings/_base.scss */
+img.centered, .aligncenter, div.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 94, ../sass/settings/_base.scss */
+img.alignright {
+  display: inline;
+}
+
+/* line 97, ../sass/settings/_base.scss */
+img.alignleft {
+  display: inline;
+}
+
+/* line 100, ../sass/settings/_base.scss */
+.alignright {
+  float: right;
+  margin-left: 10px;
+}
+
+/* line 104, ../sass/settings/_base.scss */
+.alignleft {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 108, ../sass/settings/_base.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 111, ../sass/settings/_base.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 114, ../sass/settings/_base.scss */
+* + html .clearfix {
+  display: inline-block;
+}
+
+/* line 117, ../sass/settings/_base.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 124, ../sass/settings/_base.scss */
+* html .group {
+  height: 1%;
+}
+
+/* line 127, ../sass/settings/_base.scss */
+* + html .group {
+  display: inline-block;
+}
+
+/* line 130, ../sass/settings/_base.scss */
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/**
+* End Vanilla CSS
+*/
